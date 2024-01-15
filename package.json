@@ -1,0 +1,31 @@
+{
+  "name": "infinite-process-manager",
+  "version": "1.0.0",
+  "description": "Manager for long running processes which need to be controlled from NodeJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/index.js\"",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "author": "Omkar Pai",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "@types/node": "^18.16.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.9.5"
+  }
+}
