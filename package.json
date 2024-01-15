@@ -1,6 +1,6 @@
 {
   "name": "infinite-process-manager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Manager for long running processes which need to be controlled from NodeJS",
   "main": "dist/index.js",
   "scripts": {
