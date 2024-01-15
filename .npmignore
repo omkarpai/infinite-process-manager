@@ -3,5 +3,8 @@
 /src
 .eslintrc.js
 .gitignore
+.nvmrc
 .prettierrc.json
+LICENSE
+README.md
 tsconfig.json
