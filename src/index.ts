@@ -286,4 +286,4 @@ class InfiniteProcessManager {
   };
 }
 
-export { InfiniteProcessManager };
+export { InfiniteProcessManager, InternalLogger };
