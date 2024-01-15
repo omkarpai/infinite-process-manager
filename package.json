@@ -26,5 +26,23 @@
     "tsc-watch": "^4.6.0",
     "typescript": "^4.9.5"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omkarpai/infinite-process-manager"
+  },
+  "keywords": [
+    "process",
+    "manager",
+    "ipm",
+    "infinite-process-manager",
+    "infinite process manager",
+    "script restart",
+    "task restart",
+    "run scripts from node",
+    "node shell script restart",
+    "keep process alive",
+    "node controlled scripts",
+    "start stop scripts"
+  ]
 }
